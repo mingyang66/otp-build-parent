@@ -11,12 +11,22 @@
     <packaging>jar</packaging>
 
     <name>otp-spring-boot-starter</name>
-    <url>http://maven.apache.org</url>
+    <url>git@github.com:mingyang66/otp-build-parent.git</url>
+    <description>OTP Spring Boot Starter</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <developers>
+        <developer>
+            <name>Mingyang</name>
+            <email>mingyang66@foxmail.com</email>
+        </developer>
+    </developers>
+    <scm>
+        <connection>git@github.com:mingyang66/otp-build-parent.git</connection>
+        <url>git@github.com:mingyang66/otp-build-parent.git</url>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
