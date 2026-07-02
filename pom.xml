@@ -8,7 +8,8 @@
     <packaging>pom</packaging>
 
     <name>opt-build-parent</name>
-    <url>http://maven.apache.org</url>
+    <url>git@github.com:mingyang66/otp-build-parent.git</url>
+    <description>OTP Build Parent</description>
     <modules>
         <module>otp-spring-boot-starter</module>
         <module>otp-spring-boot-sample</module>
