@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.mingyang66</groupId>
-        <artifactId>opt-build-parent</artifactId>
+        <artifactId>otp-build-parent</artifactId>
         <version>${revision}</version>
     </parent>
 
