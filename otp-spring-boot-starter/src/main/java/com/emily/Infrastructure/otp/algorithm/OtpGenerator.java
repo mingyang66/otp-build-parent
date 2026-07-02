@@ -45,7 +45,8 @@ public class OtpGenerator {
             throw new IllegalStateException("账户 " + account + " 已启用OTP，无需重复生成");
         }
         // 生成Base32编码的密钥
-        String secret = OtpSecretGenerator.generateBase32Secret(properties.getSecretKeyLength());
+        String secret = OtpSecretGenerator.generateBase32Secret(properties.getAlgorithm().getRecommendedKeyLength());
+        // 生成Base32编码的密钥
         // 创建并存储会话
         otpStoreService.put(account, new OtpSession(secret, account));
 

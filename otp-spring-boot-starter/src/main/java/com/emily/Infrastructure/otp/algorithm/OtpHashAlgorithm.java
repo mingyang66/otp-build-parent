@@ -5,7 +5,7 @@ package com.emily.Infrastructure.otp.algorithm;
  * <p>
  * 定义支持的HMAC算法，用于TOTP密码生成和验证
  * <p>
- * 基于 RFC 6238 标准，推荐使用 HmacSHA1（兼容性最好）
+ * 基于 RFC 6238 推荐值：SHA1=20, SHA256=32, SHA512=64
  *
  * @author Emily
  * @since 1.0.0
