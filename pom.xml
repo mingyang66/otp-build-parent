@@ -37,6 +37,12 @@
         <connection>git@github.com:mingyang66/otp-build-parent.git</connection>
         <url>git@github.com:mingyang66/otp-build-parent.git</url>
     </scm>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
     <dependencyManagement>
         <dependencies>
             <dependency>
